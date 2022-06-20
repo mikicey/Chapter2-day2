@@ -162,11 +162,18 @@ section{
 
 
 /* My Project Section */
-.container.projects h2{
+.project-section h2{
     text-align: center;
     font-weight: bold;
-    color: #000000;
+    margin-bottom: 64px;
+    color: black;
 }
+
+.container.projects{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
 
 .card {
     
